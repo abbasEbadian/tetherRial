@@ -1,0 +1,22 @@
+.terms-and-services-container {
+  display: flex;
+
+  box-sizing: border-box;
+  padding: 2vh 8.3vw 11.7vh 2.8vw;
+}
+
+.terms-and-services-container > img {
+  width: 23.6vw;
+  height: 23.6vw;
+}
+
+@media screen and (max-width: 700px) {
+  .terms-and-services-container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .terms-and-services-container > img {
+    width: 50vw;
+    height: 50vw;
+  }
+}

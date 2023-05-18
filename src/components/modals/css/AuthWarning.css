@@ -1,0 +1,25 @@
+.auth-warning-container {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 408px;
+  height: 177px;
+
+  padding: 0;
+}
+
+.auth-warning-container > img,
+.auth-warning-container > p {
+  position: absolute;
+}
+
+.auth-warning-container > img {
+  opacity: 0.2;
+}
+
+.auth-warning-container > p {
+  font-size: 18px;
+}

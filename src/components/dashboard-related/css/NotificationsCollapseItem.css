@@ -1,0 +1,55 @@
+.notif-collapse-container {
+  width: 100%;
+
+  background: #fffbf5;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+  border-radius: 4px;
+
+  box-sizing: border-box;
+  padding: 16px 24px 16px 24px;
+  margin-bottom: 8px;
+}
+
+.notif-collapse-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notif-collapse-container > div > p:first-child {
+  font-size: 16px;
+}
+.notif-collapse-container > div > p:nth-child(2) {
+  font-size: 14px;
+}
+
+.notif-collapse-container > p {
+  margin-top: 16px;
+
+  font-size: 14px;
+}
+
+@media screen and (max-width: 530px) {
+  .notif-collapse-container > div > p:first-child {
+    font-size: 12px;
+  }
+  .notif-collapse-container > div > p:nth-child(2) {
+    font-size: 10px;
+  }
+  .notif-collapse-container > p {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .notif-collapse-container > div > p:first-child {
+    font-size: 10px;
+  }
+  .notif-collapse-container > div > p:nth-child(2) {
+    font-size: 10px;
+  }
+  .notif-collapse-container > p {
+    font-size: 10px;
+  }
+}

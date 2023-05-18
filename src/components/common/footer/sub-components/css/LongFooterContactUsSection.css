@@ -1,0 +1,7 @@
+.long-footer-contact-us-section-container > li {
+  display: flex;
+}
+
+.long-footer-contact-us-section-container > li > img {
+  margin-left: 0.5vw;
+}

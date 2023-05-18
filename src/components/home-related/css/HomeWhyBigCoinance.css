@@ -1,0 +1,25 @@
+.home-why-big-coinance-container {
+  width: 100vw;
+
+  box-sizing: border-box;
+  padding: 12.5vh 12vw 12.5vh 12vw;
+  /* clip-path: circle(80% at 0 50%);
+  shape-outside: circle(90% at 0 50%); */
+  background: #E1E1E1;
+}
+
+.home-why-big-coinance-container > p {
+  margin-bottom: 8vh;
+}
+
+.why-big-coinance-boxes-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 620px) {
+  .why-big-coinance-boxes-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

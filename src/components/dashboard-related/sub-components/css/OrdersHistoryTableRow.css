@@ -1,0 +1,22 @@
+.orders-table-row {
+  height: 6vh;
+
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(248, 193, 37, 0.5);
+
+  font-size: 14px;
+}
+
+.orders-table-row > td {
+  text-align: center;
+}
+
+.orders-table-row > td:nth-child(5) {
+  color: #17974e;
+}
+
+@media screen and (max-width: 1112px) {
+  .orders-table-row {
+    font-size: 12px;
+  }
+}

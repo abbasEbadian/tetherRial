@@ -1,0 +1,110 @@
+:root{
+    --primary :  linear-gradient(90deg, #2da05e 0%, #31925b 51.04%, #2da05e 100%);
+    --primary-hover: #dfaf2b;
+    --primary-gradient: #50AF95;
+    --secondary : #2da05e;
+    --secondary-hover: #31925b;
+    --secondary-gradient: linear-gradient(90deg, #2da05e 0%, #31925b 51.04%, #2da05e 100%);
+    --danger : #ec5453;
+    --danger-hover: #da4040;
+    --danger-gradient: linear-gradient(90deg, #da4040 0%, #ec5453 51.04%, #da4040 100%);
+}
+/* @import url('https://farsifont.github.io/css/iransans.css'); */
+/* @import url('https://farsifont.github.io/css/iranyekan-farsi-numbers.css'); */
+
+body button.btn,
+body a.btn{
+    transition: all 0.2s !important;
+    height: 50px;
+    line-height: 38px;
+}
+.btn-primary-gradient:hover,
+.btn-secondary-gradient:hover,
+.btn-danger-gradient:hover{
+    filter: saturate(8);
+}
+.btn-primary:hover,
+.btn-secondary:hover,
+.btn-danger:hover{
+    filter: brightness(0.8);
+}
+
+body .btn-primary, body .btn-primary:hover{
+    background-color: var(--primary);
+}
+
+body .btn-primary-outline{
+    background-color: transparent;
+    border:1px solid var(--primary);
+    color: var(--primary);
+}
+body  .btn-primary-outline:hover, body .btn-primary-gradient:hover{
+    background: var(--primary-gradient);
+    color: black !important;
+}
+body .btn-primary-gradient{
+    background: var(--primary-gradient);
+}
+
+
+body .btn-secondary,body .btn-secondary:hover{
+    background-color: var(--secondary);
+    color: white;
+}
+body .btn-secondary-outline{
+    background-color: transparent;
+    border:1px solid var(--secondary);
+    color: var(--secondary);
+}
+body  .btn-secondary-outline:hover{
+    background-color: var(--secondary);
+    color: white;
+}
+body .btn-secondary-gradient{
+    background: var(--secondary-gradient);
+}
+
+body .btn-danger, body .btn-danger:hover{
+    background-color: var(--danger);
+    color: white;
+}
+body .btn-danger-outline{
+    background-color: transparent;
+    border:1px solid var(--danger);
+    color: var(--danger);
+}
+body  .btn-danger-outline:hover{
+    background-color: var(--danger);
+    color: white;
+}
+body .btn-danger-gradient{
+    background: var(--danger-gradient);
+}
+
+
+
+body .bg-dark{
+    background: #162637;
+    color: white;
+}
+body .bg-dark *{
+    color: white;
+}
+ 
+.with-error, .with-counter{ 
+    position: relative;
+}
+.with-error .error-text {
+    position: absolte;
+    top: 110%;
+    right:  0;
+    font-size: 11px;
+    color: red;
+}
+.with-counter .text-counter{
+    position: absolute;
+    left: 0;
+    top: 110%;
+    font-size: 11px;
+    color: #999;
+}

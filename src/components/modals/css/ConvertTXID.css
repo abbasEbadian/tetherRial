@@ -1,0 +1,17 @@
+.convert-txid-container {
+  width: 408px;
+  height: 635px;
+}
+
+.barcode-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 282px;
+
+  background: rgba(248, 193, 37, 0.05);
+
+  border-radius: 4px;
+}

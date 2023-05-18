@@ -1,0 +1,18 @@
+.home-trending-posts-container > div {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100vw;
+
+  box-sizing: border-box;
+  padding: 12vh 8.3vw 12vh 8.3vw;
+
+  background: #1616169e;
+}
+
+@media screen and (max-width: 700px) {
+  .home-trending-posts-container >div{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}

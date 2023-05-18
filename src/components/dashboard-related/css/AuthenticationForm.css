@@ -1,0 +1,305 @@
+.user-account-container section{
+  margin-bottom: 16px;
+  background: #fffbf5;
+  border-radius: 6px;
+}
+
+.authentication-form-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 83.3vw;
+  background: transparent;
+  
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+  border-radius: 4px;
+}
+
+.authentication-form-container section >  div {
+  box-sizing: border-box;
+  padding: 25px 25px 25px 25px;
+}
+
+.authentication-form-container  section > div,
+.authentication-form-container  section > input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.authentication-form-container  section > input {
+  background: none;
+
+  border: 1.5px solid rgba(248, 193, 37, 0.6);
+}
+
+.authentication-form-container section   div >  button {
+  width: 156px;
+
+  opacity: 0.9;
+
+  border: none;
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-size: inherit;
+}
+
+.authentication-form-container section > div >   img {
+  width: 156px;
+  height: 40px;
+}
+
+.upload-section {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+.upload-section   p {
+  flex-grow: 1;
+}
+.upload-section  > div {
+  display: flex;
+}
+
+.upload-section  div >  img {
+  margin-right: 24px;
+}
+
+.important-tips {
+  font-size: 14px;
+}
+
+.authentication-form-container section   b {
+  font-size: 14px;
+
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.tips {
+  opacity: 0.7;
+
+  font-size: 14px;
+}
+
+.pad-it {
+  box-sizing: border-box;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.upload-here-container {
+  position: relative;
+
+  height: 100%;
+  width: 250px;
+
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.upload-here-container  >  div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100%;
+
+  opacity: 0.75;
+
+  box-sizing: border-box;
+  border: 3px dashed #f8c125;
+}
+
+.upload-here-container  >  div  >  img {
+  margin-bottom: 2vh;
+}
+
+.upload-here-container   > div  >  p {
+  color: #f8c125;
+}
+
+.upload-here-container   > div >  input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  opacity: 0;
+}
+
+.address-container {
+  width: 100%;
+}
+
+.address-container    textarea {
+  width: 100%;
+  height: 87px;
+
+  background: none;
+
+  box-sizing: border-box;
+  border: 1px solid rgba(248, 193, 37, 0.5);
+  margin-bottom: 24px;
+  outline: none;
+  padding: 8px;
+
+  font-family: inherit;
+}
+
+body #debit-card div.bank-container {
+  
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin: 12px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.bank-container    p {
+  text-align: center;
+
+  height: 40px;
+  line-height: 40px;
+
+  background: rgba(248, 193, 37, 0.05);
+
+  border-bottom: 1.5px solid rgba(248, 193, 37, 0.6);
+}
+
+.bank-container   > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 180px;
+  height: 40px;
+
+  background: rgba(248, 193, 37, 0.05);
+
+  border-bottom: 1.5px solid rgba(248, 193, 37, 0.6);
+}
+
+.bank-container  > p:first-child,
+.bank-container >  p:nth-child(2) {
+  width: 360px;
+}
+.bank-container  >  p:nth-child(3) {
+  width: 180px;
+}
+
+.authentication-input-text-container-one {
+  width: 360px;
+}
+.authentication-input-text-container-two {
+  width: 180px;
+}
+
+.custon-ones-one {
+  width: 360px !important;
+}
+
+.custon-ones-two {
+  width: 180px !important;
+}
+.authentication-input-text-container, body .genderSelect {
+  width: 360px  ;
+}
+@media screen and (max-width: 1390px) {
+  .bank-container {
+    align-items: center;
+  }
+  body .authentication-input-text-container, body select.genderSelect{
+    width: 200px ;
+  }
+  .authentication-input-text-container-one {
+    width: 200px;
+  }
+  .authentication-input-text-container-two {
+    width: 200px;
+  }
+
+  .custon-ones-one {
+    width: 200px !important;
+
+    font-size: 12px;
+    margin-bottom: 2vh;
+  }
+
+  .custon-ones-two {
+    width: 200px !important;
+
+    font-size: 12px;
+    margin-bottom: 2vh;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .authentication-form-container  section > div {
+    flex-direction: column;
+  }
+
+  body .authentication-input-text-container,body select.genderSelect {
+    width: 350px ;
+    align-self: center;
+
+  }
+
+  .authentication-form-container  section > div  >  button,
+  .authentication-form-container section >  div   > img {
+    align-self: center;
+  }
+
+  .authentication-form-container  section > div {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .upload-section {
+    flex-direction: column;
+  }
+
+  .upload-section  >  p {
+    margin-bottom: 10vh;
+  }
+
+  .upload-section  >  div {
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .upload-section  >  div {
+    flex-direction: column;
+  }
+
+  .upload-section  section > div >  * {
+    align-self: center;
+  }
+  .upload-section   > div >  img {
+    margin: 2vh auto;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .authentication-form-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .authentication-input-text-container, body select.genderSelect {
+    width: 250px !important;
+  }
+}

@@ -1,0 +1,41 @@
+.exchange-container > div {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100vw;
+  height: 100%;
+}
+
+.exchange-title {
+  color: #fffbf5;
+
+  margin-right: 8.3vw;
+}
+
+.exchange-container > div {
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+
+  box-sizing: border-box;
+  padding: 2vh 8.3vw 2vh 8.3vw;
+}
+.widget-container{
+  flex-grow: 1;
+  padding-right: 32px;
+}
+.widget-container > article, 
+.widget-container > article > div, 
+.widget-container > article >div>div
+{
+  width: 100% !important;
+}
+
+
+@media screen and (max-width: 1160px) {
+  .exchange-container > div {
+    flex-direction: column;
+    align-items: center;
+  }
+}

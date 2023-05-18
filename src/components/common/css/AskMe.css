@@ -1,0 +1,40 @@
+.ask-me-container {
+  position: absolute;
+  right: 1.1vw;
+  bottom: 6.2vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 17.8vw;
+  height: 7.3vh;
+
+  background: linear-gradient(90deg, #eea526 0%, #ffc002 51.04%, #eea526 100%);
+  opacity: 0.8;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
+
+  font-size: 16px;
+}
+
+.ask-me-container > p {
+  margin-right: 1.1vw;
+}
+
+@media screen and (max-width: 750px) {
+  .ask-me-container {
+    width: 7.3vh;
+  }
+
+  .ask-me-container > p {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .ask-me-container {
+    bottom: 8vh;
+  }
+}

@@ -1,0 +1,25 @@
+.buy-container {
+  position: absolute;
+  top: calc(50vh - 182px);
+  left: calc(50vw - 204px);
+
+  width: 408px !important;
+  height: 364px !important;
+}
+
+.buy-middle-section > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy-middle-section > div > div {
+  display: flex;
+}
+
+.buy-tip {
+  width: 90%;
+}
+
+.buy-detail {
+  width: 90%;
+}

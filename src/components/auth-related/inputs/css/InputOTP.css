@@ -1,0 +1,35 @@
+.input-otp-container {
+  display: flex;
+  
+  justify-content: space-between;
+
+  width: 384px;
+  height: 46px;
+}
+
+.input-otp-container > input {
+  width: 46px;
+  height: 46px;
+
+  background: none;
+  outline: none;
+
+  border: none;
+  border-bottom: 2px solid rgba(248, 193, 37, 0.6);
+
+  text-align: center;
+}
+
+.input-otp-container > input:focus {
+  border-bottom: 2px solid rgba(248, 193, 37, 1);
+}
+
+@media screen and (max-width: 460px) {
+  .input-otp-container {
+    width: 300px;
+  }
+
+  .input-otp-container > input {
+    width: 40px;
+  }
+}

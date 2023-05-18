@@ -1,0 +1,21 @@
+.dashboard-navbar-menu-section {
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-navbar-menu-section > a {
+  color: inherit;
+
+  margin-left: 1.5vw;
+
+  text-decoration: none;
+}
+.dashboard-navbar-menu-section > a:last-child {
+  margin-left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .dashboard-navbar-menu-section {
+    display: none;
+  }
+}

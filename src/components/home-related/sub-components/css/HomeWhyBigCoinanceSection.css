@@ -1,0 +1,61 @@
+.home-why-big-coinance-section-container > img {
+  width: 20vw;
+  height: 20vw;
+
+  margin-bottom: 3.3vh;
+}
+
+.home-why-big-coinance-section-container > p {
+  width: 20vw;
+
+  text-align: center;
+}
+.why-big-coinance-title {
+  font-size: 18px;
+}
+
+.why-big-coinance-content {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 900px) {
+  .why-big-coinance-title {
+    font-size: 17px;
+  }
+
+  .why-big-coinance-content {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 620px) {
+  .home-why-big-coinance-section-container {
+    margin-bottom: 5vh;
+  }
+
+  .home-why-big-coinance-section-container > img {
+    width: 30vw;
+    height: 30vw;
+
+    margin-bottom: 3.3vh;
+  }
+
+  .home-why-big-coinance-section-container > p {
+    width: 30vw;
+  }
+}
+@media screen and (max-width: 400px) {
+  .home-why-big-coinance-section-container {
+    margin-bottom: 3vh;
+  }
+
+  .home-why-big-coinance-section-container > img {
+    width: 60vw;
+    height: 60vw;
+
+    margin-bottom: 3.3vh;
+  }
+
+  .home-why-big-coinance-section-container > p {
+    width: 70vw;
+  }
+}

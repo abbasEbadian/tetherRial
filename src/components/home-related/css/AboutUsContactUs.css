@@ -1,0 +1,26 @@
+.about-us-contact-us-container > li {
+  display: flex;
+  align-items: center;
+  margin-left: 16px;
+  margin-bottom: 3vh;
+}
+
+.about-us-contact-us-container > li > img {
+  width: 24px;
+    height: 24px;
+
+  opacity: 0.5;
+
+  margin-left:4px;
+}
+
+@media screen and (max-width: 700px) {
+  .about-us-contact-us-container {
+    align-self: flex-start;
+    padding-top: 32px;
+  }
+  body .about-us-contact-us-container > li > img {
+
+    opacity: 0.5;
+  }
+}

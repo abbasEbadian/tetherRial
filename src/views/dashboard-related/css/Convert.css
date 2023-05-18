@@ -1,0 +1,199 @@
+.convert-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.convert-container > form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 588px;
+  height: 528px;
+
+  background: #fffbf5;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+  box-sizing: border-box;
+  padding: 24px 24px 24px 24px;
+  border-radius: 4px;
+}
+
+.convert-container > form > div > div,
+.convert-container > form > div > div > div,
+.convert-container > form > div > div > div > div {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.conversion-section {
+  display: flex;
+}
+
+.convert-container > form > div,
+.convert-container > form > button {
+  width: 100%;
+}
+
+.convert-container > form > div > div:nth-child(2) {
+  height: 48px;
+
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.convert-container > form > div > div:nth-child(2) > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 195px;
+  height: 100%;
+
+  background: linear-gradient(
+    90deg,
+    rgba(238, 165, 38, 0.05) 0%,
+    rgba(255, 192, 2, 0.05) 51.04%,
+    rgba(238, 165, 38, 0.05) 100%
+  );
+
+  box-sizing: border-box;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.convert-container > form > div > div:nth-child(2) > div > img {
+  width: 10px;
+  height: 10px;
+}
+
+.convert-container > form > div > div > div > div {
+  align-items: center;
+}
+.convert-container > form > div > div > div > div > p {
+  margin-right: 4px;
+}
+.convert-container > form input {
+  direction: ltr;
+
+  width: 50%;
+
+  background: none;
+
+  box-sizing: border-box;
+  padding-left: 16px;
+  border: none;
+  outline: none;
+
+  font-family: inherit;
+}
+
+.convert-container > form > button {
+  height: 54px;
+
+  opacity: 0.9;
+
+  border: none;
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.conversion-section {
+  justify-content: space-between;
+  align-items: center;
+
+  height: 79px;
+
+  background: rgb(248, 193, 37, 0.05);
+
+  border-radius: 4px;
+
+  box-sizing: border-box;
+  padding-left: 31px;
+  padding-right: 31px;
+}
+.conversion-section > div {
+  align-items: center;
+
+  height: 100%;
+}
+
+.conversion-section > img {
+  width: 24px;
+  height: 24px;
+}
+
+.conversion-section > div > p {
+  margin-left: 4px;
+}
+
+.convert-container > form > div > div > div > p:last-child {
+  opacity: 0.4;
+
+  margin-right: 4px;
+}
+
+.conversion-section > div > p:first-child {
+  font-size: 14;
+  opacity: 0.4;
+}
+
+.conversion-section > div > img {
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (max-width: 610px) {
+  .convert-container > form {
+    width: 400px;
+  }
+
+  .conversion-section {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .conversion-section > div > img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .convert-container > form {
+    width: 90%;
+
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .conversion-section {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .conversion-section > div > img {
+    width: 12px;
+    height: 12px;
+  }
+  .convert-container > form > div > div,
+  .convert-container > form > div > div > div,
+  .convert-container > form > div > div > div > div {
+    font-size: 14px;
+  }
+}
+
+
+  /*Todo: Remove!  */
+@media screen and (max-width: 420px) {
+  .convert-container .selector img{width: 24px; height: 24px;}
+  .convert-container .selector p:first-of-type{font-size: 13px;white-space: nowrap;}
+  .convert-container .selector p:last-of-type{font-size: 12px;margin: 0 6px;}
+
+}

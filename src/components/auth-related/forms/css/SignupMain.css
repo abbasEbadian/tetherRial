@@ -1,0 +1,95 @@
+.signup-main-container {
+  display: flex;
+  
+  width: 864px;
+
+  box-sizing: border-box;
+  padding-bottom: 24px;
+}
+
+.signup-main-container > form,
+.signup-main-container > div {
+  width: 50%;
+}
+.signup-main-container .input-text-container{
+  width: 100%;
+}
+.signup-main-container > form  section >div,
+.signup-main-container > form  section >button{
+  width: 100%;
+  margin: 15px 0;
+}
+.form-left-section img{
+  width: 250px;
+  height: 250px;;
+}
+.signup-main-container > form  section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: 1;
+  width: 100%;
+  padding: 0 16px;
+}
+.signup-main-container > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (max-width: 900px) {
+  .signup-main-container {
+    flex-direction: column-reverse;
+    align-items: center;
+
+    width: 60%;
+    height: auto;
+  }
+
+  .signup-main-container > form,
+  .signup-main-container > div {
+    width: 100%;
+  }
+
+  .signup-main-container > form {
+    height: 65%;
+
+    padding-bottom: 10px;
+  }
+
+  .signup-main-container > div {
+    height: 35%;
+  }
+  .form-left-section img{
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .signup-main-container {
+    width: 90%;
+
+    padding-bottom: 5px;
+  }
+
+  .signup-main-container > form {
+    height: 70%;
+    padding-bottom: 5px;
+  }
+  .signup-main-container > form section{
+    padding:  16px;
+  }
+  .forgot-password {
+    margin-left: 5px;
+  }
+
+  .signup-main-container > div {
+    height: 30%;
+  }
+  .form-left-section img{
+    width: 120px;
+    height: 120px;
+  }
+}

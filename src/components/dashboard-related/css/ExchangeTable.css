@@ -1,0 +1,48 @@
+table.exchange-table {
+  width: 53vw;
+  min-width: 600px;
+  background: #fffbf5;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+  overflow-x: auto;
+  border-radius: 4px;
+
+  border-collapse: collapse;
+}
+
+.exchange-table > thead > tr {
+  height: 5.7vh;
+
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(248, 193, 37);
+}
+
+.exchange-table > thead > tr > th {
+  width: 25%;
+
+  opacity: 0.7;
+
+  font-size: 14px;
+  text-align: center;
+}
+
+.exchange-table > thead > tr > th > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.exchange-table > thead > tr > th > div > p:last-child {
+  opacity: 0.5;
+
+  margin-right: 4px;
+}
+
+@media screen and (max-width: 840px) {
+  .exchange-table > thead > tr > th {
+    font-size: 10px;
+  }
+  .exchange-container .overflow-it{
+    width: 90vw;
+  }
+  
+}

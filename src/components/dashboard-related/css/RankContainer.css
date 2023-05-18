@@ -1,0 +1,47 @@
+.rank-cotainer {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+  height: 65%;
+}
+
+.rank-cotainer > div {
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 24%;
+  height: 100%;
+}
+
+.rank-cotainer > div > div {
+  height: 9px;
+  width: 100%;
+  cursor: pointer;
+
+  background: linear-gradient(279deg, #2fa25f 0%, #2fa25f );
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+/* .rank-cotainer > div:last-child > div {
+  background: #1d1d1d;
+  opacity: 0.05;
+  border-radius: 4px;
+} */
+
+.rank-cotainer > div > p {
+  font-size: 18px;
+  user-select: none;
+}
+
+.rank-cotainer > div:last-child > p {
+  opacity: 0.5;
+}

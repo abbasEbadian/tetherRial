@@ -1,0 +1,45 @@
+.dashboard-navbar-dropdown-menu-section {
+  position: absolute;
+  top: 60px;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  width: 65vw;
+  border-radius: 12px;
+  background: #1a2c3e;
+  color: #fffbf5;
+
+  box-sizing: border-box;
+  padding: 2vh 2vw 2vh 2vw;
+}
+
+.dashboard-navbar-dropdown-menu-section > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: none;
+  color: inherit;
+
+  border: none;
+
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.close-button {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  height: 25px;
+  width: 25px;
+}
+
+.dashboard-navbar-dropdown-menu-section > img {
+  width: 30px;
+  margin-bottom: 12px;
+}

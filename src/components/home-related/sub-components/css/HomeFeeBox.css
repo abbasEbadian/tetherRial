@@ -1,0 +1,121 @@
+.home-fee-box-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 26.7vw;
+  height: 18.7vh;
+
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  color: #fffbf5;
+
+  box-sizing: border-box;
+  padding: 2vh 2vh 2vh 2vh;
+  border-radius: 4px;
+}
+
+.home-fee-box-container > div {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+.home-fee-box-container > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.home-fee-box-currency-type {
+  font-size: 18px;
+}
+.home-fee-box-fee-description {
+  font-size: 14px;
+}
+.home-fee-box-currency-description {
+  font-size: 12px;
+}
+
+.home-fee-box-margin-right {
+  margin-right: 1vh;
+}
+.home-fee-box-low-opacity {
+  opacity: 0.7;
+}
+.home-fee-box-orange {
+  color: #f8c125;
+}
+
+@media screen and (max-width: 1160px) {
+  .home-fee-box-currency-type {
+    font-size: 16px;
+  }
+  .home-fee-box-fee-description {
+    font-size: 12px;
+  }
+  .home-fee-box-currency-description {
+    font-size: 10px;
+  }
+  .acronym-and-price {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .home-fee-box-currency-type {
+    font-size: 14px;
+  }
+  .home-fee-box-fee-description {
+    font-size: 10px;
+  }
+  .home-fee-box-currency-description {
+    font-size: 10px;
+  }
+  .acronym-and-price {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .home-fee-box-currency-type {
+    font-size: 14px;
+  }
+  .home-fee-box-fee-description {
+    font-size: 12px;
+  }
+  .home-fee-box-currency-description {
+    font-size: 10px;
+  }
+  .acronym-and-price {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .home-fee-box-container {
+    width: 28vw;
+    height: 19vh;
+  }
+}
+@media screen and (max-width: 840px) {
+  .home-fee-box-container {
+    width: 35vw;
+    height: 20vh;
+  }
+}
+@media screen and (max-width: 640px) {
+  .home-fee-box-container {
+    width: 55vw;
+    height: 20vh;
+  }
+
+  .home-fee-box-container:last-child {
+    margin-top: 2vh;
+  }
+  .home-fee-box-container:first-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 640px) {
+  .home-fee-box-container{
+    width: 85vw;
+    height: 22vh;
+  }
+}

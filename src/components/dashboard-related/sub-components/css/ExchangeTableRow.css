@@ -1,0 +1,54 @@
+.exchange-table-row {
+  height: 32px;
+}
+.exchange-table-row > td {
+  width: 25%; height: 32px;
+  padding-block: 0;
+  text-align: center;
+
+  font-size: 14px;
+
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(248, 193, 37, 0.5);
+  vertical-align: middle;
+}
+
+.exchange-table-row > td > div {
+  display: flex;
+  align-items: center;
+}
+
+.exchange-table-row > td:first-child {
+  box-sizing: border-box;
+  padding-right: 16px;
+}
+
+.exchange-table-row > td:nth-child(2) > div {
+  justify-content: center;
+}
+
+.exchange-table-row > td > div > p {
+  margin-right: 4px;
+  white-space: nowrap;
+}
+.exchange-table-row > td img{
+  height: 24px;
+  width: 24px;
+}
+
+.color-it {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 63px;
+  height: 24px;
+
+  border-radius: 4px;
+}
+
+@media screen and (max-width: 840px) {
+  .exchange-table-row > td {
+    font-size: 12px;
+  }
+}

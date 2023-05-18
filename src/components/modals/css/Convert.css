@@ -1,0 +1,27 @@
+.convert-modal-container {
+  width: 408px;
+  height: 502px;
+}
+
+.convert-indicator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 64px;
+
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.convert-indicator > div {
+  align-items: center;
+}
+
+.convert-indicator > div > p {
+  margin-left: 4px;
+}
+
+.convert-tip {
+  width: 90%;
+}

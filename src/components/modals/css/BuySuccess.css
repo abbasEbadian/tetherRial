@@ -1,0 +1,21 @@
+.buy-success-container {
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 408px;
+  height: 177px;
+
+  padding: 0;
+}
+
+.buy-success-container > img,
+.buy-success-container > p {
+  position: absolute;
+}
+
+.buy-success-container > p {
+  font-size: 18px;
+}

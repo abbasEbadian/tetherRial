@@ -1,0 +1,25 @@
+body .home-and-auth-navbar-auth-section > a {
+  display: inline-block;
+
+  width: 80px;
+  height: 34px;
+  line-height: 18px;
+
+  border-radius: 4px;
+
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  /* .home-and-auth-navbar-auth-section {
+    display: none;
+  } */
+}
+
+.home-and-auth-navbar-auth-section > a:first-child {
+  opacity: 0.8;
+}
+
+.home-and-auth-navbar-auth-section > a:last-child {
+
+  margin-right: 1vw;
+}

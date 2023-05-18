@@ -1,0 +1,51 @@
+.hover-user-level-container {
+  position: absolute !important;
+  top: 0;
+  pointer-events: none;
+  width: 100% !important;
+
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background: #fffbf5;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+  border-radius: 4px;
+
+  width: 100%;
+  height: 30%;
+  z-index: 1;
+
+  box-sizing: border-box;
+  padding: 8px 16px;
+  font-size: 13px;
+}
+
+.hover-user-level-container > div {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.hover-user-level-container > div:last-child {
+  height: 50%;
+}
+
+.hover-user-level-container > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  width: 22%;
+}
+
+.hover-user-level-container > div:last-child > div > div {
+  height: 9px !important;
+  width: 100%;
+
+  border-radius: 4px;
+  margin-bottom: 4px;
+}

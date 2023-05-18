@@ -1,0 +1,86 @@
+.blogpost-container {
+  position: relative;
+
+  width: 19.5vw;
+
+  background: #fffbf5;
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.15);
+
+  border-radius: 4px;
+}
+
+.blogpost-container > p:first-child {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  width: 50px;
+  height: 25px;
+  line-height: 25px;
+
+  background: #fffbf5;
+
+  border-radius: 4px;
+
+  font-size: 14px;
+  text-align: center;
+}
+
+.blogpost-container > img {
+  width: 100%;
+}
+
+.blogpost-content {
+  margin-bottom: 18px;
+}
+
+.blogpost-container > div {
+  display: flex;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  padding: 8px;
+}
+
+.blogpost-container > div > p {
+  font-size: 14px;
+}
+
+.blogpost-container > div > div {
+  display: flex;
+}
+.blogpost-container > div > div > p {
+  font-size: 14px;
+}
+.blogpost-container > div > div > img {
+  margin-right: 3px;
+}
+
+@media screen and (max-width: 1060px) {
+  .blogpost-container > p:first-child {
+    font-size: 12px;
+  }
+  .blogpost-content {
+    font-size: 14px;
+  }
+  .blogpost-container > div > p {
+    font-size: 12px;
+  }
+  .blogpost-container > div > div > p {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .blogpost-container {
+    width: 40vw;
+
+    margin-bottom: 5vh;
+  }
+}
+@media screen and (max-width: 500px) {
+  .blogpost-container {
+    width: 70vw;
+
+    margin-bottom: 3vh;
+  }
+}

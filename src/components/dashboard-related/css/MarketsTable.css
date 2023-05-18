@@ -1,0 +1,61 @@
+.markets-markets-table-container{
+  overflow-x: auto;
+}
+.markets-table {
+  width: 100%;
+  min-width: 600px;
+  background: #fffbf5;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+  border-radius: 4px;
+  border-collapse: collapse;
+}
+
+.markets-table > thead > tr {
+  height: 6.3vh;
+
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(248, 193, 37);
+}
+
+.markets-table > thead > tr > th {
+
+  opacity: 0.7;
+
+  font-size: 14px;
+}
+.markets-table td.coin p:first-of-type {
+  margin-inline: 4px;
+}
+.markets-table > thead > tr > th:first-child {
+  box-sizing: border-box;
+  padding-right: 24px;
+
+  text-align: right;
+}
+
+.markets-table > thead > tr > th > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.markets-table  td a {
+  display: flex;
+  text-decoration: none;
+}
+.markets-table > thead > tr > th > div > p:last-child {
+  opacity: 0.5;
+
+  margin-right: 4px;
+
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1160px) {
+  .markets-table > thead > tr > th {
+    font-size: 10px;
+  }
+  .markets-table > thead > tr > th > div > p:last-child {
+    font-size: 10px;
+  }
+}

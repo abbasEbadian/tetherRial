@@ -1,0 +1,147 @@
+api paths v1.02:
+
+users
+    post-> (unauthenticated)
+    user_name: String,
+    user_phone_number: String,
+    user_email: String,
+    user_password: String,
+    user_image: String,
+    user_id_card: String,
+    user_gender: String,
+    user_birth: String,
+    user_post_code: String,
+    user_addr: String,
+    user_city: String,
+    user_bank_account: String,
+    
+    put_> path param: id: String
+    body:
+    user_name: String,
+    user_phone_number: String,
+    user_email: String,
+    user_password: String,
+    old_password:String,
+    
+    delete-> path param: id: String
+    
+    get-> none
+    
+login
+    post-> (unauthenticated)
+    user_phone_number: String,
+    user_password: String,
+
+login2
+    post-> (unauthenticated)
+    user_email: String,
+    user_password: String,
+    
+user
+    get-> path param: id: String
+    
+userpic
+    post-> path param: id: String
+    user_image: String,
+news
+    post-> 
+    news_title:  String,
+    news_content: String,
+    news_image: String,
+    news_date: String,
+    
+    put_> path param: id: String
+    body:
+    news_title:  String,
+    news_content: String,
+    news_image: String,
+    news_date: String,
+    
+    delete-> path param: id: String
+    
+    get-> (unauthenticated) none
+anews
+    get-> (unauthenticated) path param: id: String
+
+blogs
+    post-> 
+    blogs_title:  String,
+    blogs_content: String,
+    blogs_image: String,
+    blogs_date: String,
+    blogs_cat: f32,
+    
+    put_> path param: id: String
+    body:
+    blogs_title:  String,
+    blogs_content: String,
+    blogs_image: String,
+    blogs_date: String,
+    blogs_cat: f32,
+    
+    delete-> path param: id: String
+    
+    get-> (unauthenticated) none
+
+blog
+    get-> (unauthenticated) path param: id: String
+
+cats
+
+    post-> 
+    cats_title:  String,
+    
+    put_> path param: id: String
+    body:
+    cats_title:  String,
+    
+    delete-> path param: id: String
+    
+    get-> (unauthenticated) none
+cat
+    get-> (unauthenticated) path param: id: String
+
+blog_cat
+    get-> (unauthenticated) path param: cat: f32
+    
+
+adminlogin
+    post-> (unauthenticated)
+    user_phone_number: String,
+    user_password: String,
+    
+adminlogin2
+    post-> (unauthenticated)
+    user_email: String,
+    user_password: String,
+    
+vuser
+    post-> (unauthenticated)
+    user_phone_number: String,
+    
+    put-> (unauthenticated)
+    user_phone_number: String,
+    user_vcode: String,
+    
+tusd
+    get -> (unauthenticated) none
+    
+fee
+    get -> (unauthenticated) none
+    
+useredit
+    put ->  path param: id: String
+    user_id_card: String,
+    user_gender: String,
+    user_birth: String,
+    user_post_code: String,
+    user_addr: String,
+    user_city: String,
+    user_bank_account: String,
+    user_active: String,
+    
+
+authorization header is enabled for all of apis except logins
+
+base url: tetherrial.com/api/
+    

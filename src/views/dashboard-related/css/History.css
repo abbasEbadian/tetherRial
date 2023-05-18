@@ -1,0 +1,114 @@
+.history-container {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+  padding: 2vh 8.3vw 2vh 8.3vw;
+}
+
+.history-container > p {
+  color: #fffbf5;
+}
+
+.active-orders-container,
+.transactions-history-container {
+  width: 100%;
+}
+
+.active-orders-container > div,
+.active-orders-container > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.active-orders-container > div {
+  justify-content: space-between;
+}
+
+.active-orders-container > div > p {
+  color: rgba(255, 251, 245, 0.8);
+}
+
+.transactions-history-container > div,
+.transactions-history-container > div > div {
+  display: flex;
+  align-items: center;
+}
+
+.transactions-history-container > div {
+  justify-content: space-between;
+}
+
+.transactions-history-container > div > p {
+  color: rgba(255, 251, 245, 0.8);
+}
+
+.active-orders-table-container {
+  margin-bottom: 2vh;
+}
+
+.options select {
+  height: 30px;
+
+  background: #fffbf5;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-size: 12px;
+
+  outline: none;
+}
+
+.options > div {
+  margin-left: 8px;
+}
+
+.options > div:last-child {
+  margin-left: 0;
+}
+
+.active-orders-table-container,
+.transactions-history-table-container {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.history-container .options{
+  flex-wrap: wrap;
+}
+@media screen and (max-width:  370px) {
+  .options > div{
+    margin-left: 0;
+    min-width: 145px;
+  }
+  .options > div:first-of-type{
+    margin-left: 8px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .active-orders-container > div,
+  .transactions-history-container > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .options {
+    margin-bottom: 2vh;
+  }
+}
+
+@media screen and (max-width: 549px) and (min-width: 370px) {
+  .options > div:nth-of-type(2){margin-left: 0;}
+}
+@media screen and (max-width: 576px) {
+  .options > div{
+    flex-grow: 1;
+    margin-bottom: 8px;
+  }
+  
+  .options > div > *{
+    width: 100%;
+  }
+}

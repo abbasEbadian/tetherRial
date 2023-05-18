@@ -1,0 +1,23 @@
+.long-footer-vista-section-container > div {
+  width: 13.5vh;
+  height: 13.5vh;
+
+  background: #c4c4c4;
+
+  border-radius: 6.75vh;
+  margin-bottom: 2vh;
+}
+
+.long-footer-vista-section-container > p {
+  opacity: 0.7;
+}
+
+@media (max-width: 768px){
+  .long-footer-vista-section-container > div {
+    margin-inline: auto;
+  }
+  .long-footer-vista-section-container > p {
+    justify-content: center;
+    text-align: center;
+  }
+}

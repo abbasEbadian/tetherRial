@@ -1,0 +1,31 @@
+.dashboard-navbar-user-section {
+  display: flex;
+}
+
+.dashboard-navbar-user-section > img {
+  margin-left: 8px;
+}
+
+.dashboard-navbar-user-section > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: none;
+  color: inherit;
+
+  border: none;
+
+  font-family: inherit;
+  font-size: inherit;
+  stroke: white;
+}
+.dashboard-navbar-user-section > button > img {
+  margin-right: 0.5vw;
+}
+
+@media screen and (max-width: 600px) {
+  /* .dashboard-navbar-user-section {
+    display: none;
+  } */
+}

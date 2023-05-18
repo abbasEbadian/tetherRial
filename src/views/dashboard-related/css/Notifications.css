@@ -1,0 +1,11 @@
+.notifications-container {
+  width: 100%;
+  min-height: 100%;
+
+  box-sizing: border-box;
+  padding: 2vh 8.3vw 2vh 8.3vw;
+}
+
+.notifications-container > p {
+  color: #fffbf5;
+}

@@ -1,0 +1,76 @@
+.authentication-input-text-container {
+  position: relative;
+
+  display: flex;
+  align-items: center;
+
+  height: 40px;
+
+  background: rgba(248, 193, 37, 0.05);
+
+  border-bottom: 1.5px solid rgba(248, 193, 37, 0.6);
+}
+
+.authentication-input-text-container * {
+  position: absolute;
+
+  box-sizing: border-box;
+  padding-right: 5px;
+}
+
+.authentication-input-text-container > label {
+  color: rgba(29, 29, 29, 0.8);
+
+  font-size: 14px;
+}
+
+.authentication-input-text-container > input {
+  height: 100%;
+  width: 100%;
+
+  background: none;
+  outline: none;
+
+  border: none;
+
+  font-family: inherit;
+}
+
+.authentication-input-text-container > img {
+  left: 5px;
+}
+
+input:focus ~ label {
+  top: -14px;
+  transform: translateX(12px);
+}
+.authentication-input-text-container, .genderSelect {
+  margin-block: 24px;
+}
+.authentication-input-text-container > label.moved {
+  opacity: 0.4;
+  transform: scale(0.8) translateX(12px);
+  transition: 0.2s;
+  top: -14px;
+}
+
+.authentication-input-text-container > label {
+  color: rgba(29, 29, 29, 0.8);
+  font-size: 14px;
+  transition: 0.2s;
+  top:4px;
+}
+
+@media screen and (max-width: 900px) {
+  .authentication-input-text-container, .genderSelect  {
+    height: 35px;
+    margin-block: 24px;
+  }
+
+}
+
+@media screen and (max-width: 460px) {
+  .authentication-input-text-container .genderSelect{
+    width: 300px;
+  }
+}

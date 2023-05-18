@@ -1,0 +1,109 @@
+.long-footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  width: 100%;
+
+  box-sizing: border-box;
+  border-top: 1px solid rgba(248, 193, 37, 0.5);
+
+  font-size: 14px;
+
+  background: #fffbf5;
+}
+
+.long-footer-container > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+  padding: 3.9vh 8.3vw 3.9vh 8.3vw;
+}
+
+.long-footer-container  div  ul  li,
+.long-footer-container  div  ul  a {
+  display: flex;
+
+  margin-bottom: 2vh;
+}
+
+.long-footer-container  div  ul  a {
+  color: inherit;
+  opacity: 0.9;
+
+  text-decoration: none;
+}
+
+.long-footer-container  div  ul  li:first-child {
+  position: relative;
+
+  padding-right: 16px;
+}
+
+.long-footer-container  div  ul  li:first-child::before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  width: 8px;
+  height: 8px;
+
+  background: #50AF95;
+
+  border-radius: 2px;
+
+  transform: translateY(-50%);
+}
+
+.long-footer-container  div  ul  li  img {
+  margin-left: 0.5vw;
+}
+
+.long-footer-container > p {
+  height: 7vh;
+  line-height: 7vh;
+
+  box-sizing: border-box;
+  border-top: 1px solid rgb(248, 193, 37);
+  padding-right: 8.3vw;
+}
+
+@media screen and (max-width: 1060px) {
+  .long-footer-container {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 940px) {
+  .long-footer-container {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .long-footer-container {
+    font-size: 14px;
+  }
+  .long-footer-container > div {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 768px) {
+  .long-footer-container div ul a {
+    justify-content: center;
+    
+  }
+  .long-footer-container div:not(:last-of-type) ul li:first-child {
+    justify-content: center;
+    padding-right: 0;
+    align-items: center;
+  }
+  .long-footer-container div:not(:last-of-type) ul li:first-child::before {
+    position: relative;
+    transform: unset;
+    margin-left: 6px;
+  }
+}

@@ -1,0 +1,73 @@
+.fees-table-row-container {
+
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(248, 193, 37, 0.5);
+}
+
+.currency-info {
+  display: flex;
+
+align-items: center;
+
+  box-sizing: border-box;
+  padding: 6px 4px;
+}
+.currency-info > img {
+  margin-left: 0.5vw;
+}
+
+.currency-info > p:last-child {
+  opacity: 0.7;
+
+  margin-right: 0.5vw;
+
+  font-size: 14px;
+}
+
+.table-data-center {
+  text-align: center;
+}
+.network-tax {
+  font-size: 14px;
+}
+
+@media screen and (max-width: 700px) {
+  .fees-table-row-container {
+    height: 7.5vh;
+  }
+  .currency-info {
+    line-height: 7.5vh;
+  }
+  .currency-title {
+    font-size: 14px;
+  }
+  .currency-info > p:last-child {
+    font-size: 12px;
+  }
+  .network-tax {
+    font-size: 12px;
+  }
+  .site-tax {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .fees-table-row-container {
+    height: 6vh;
+  }
+  .currency-info {
+    line-height: 6vh;
+  }
+  .currency-title {
+    font-size: 12px;
+  }
+  .currency-info > p:last-child {
+    font-size: 10px;
+  }
+  .network-tax {
+    font-size: 10px;
+  }
+  .site-tax {
+    font-size: 12px;
+  }
+}

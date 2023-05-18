@@ -1,0 +1,146 @@
+.invite-friends-container {
+  width: 100%;
+  min-height: 100%;
+
+  box-sizing: border-box;
+  padding: 2vh 8.3vw 2vh 8.3vw;
+}
+
+.invite-friends-container > p {
+  color: #fffbf5;
+}
+
+.invite-friends-container > div {
+  margin-top: 2vh;
+}
+
+.invite-friends-container > div:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+
+  background: #fffbf5;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+  border-radius: 4px;
+
+  box-sizing: border-box;
+  padding: 24px 24px 60px 24px;
+}
+
+.invite-friends-container > div:nth-child(2) > div:last-child {
+  margin-top: 80px;
+}
+
+.invite-friends-container > div:nth-child(2) > p:first-child {
+  margin-bottom: 24px;
+}
+
+.invite-friends-bullet {
+  position: relative;
+
+  box-sizing: border-box;
+  padding-right: 16px;
+}
+.invite-friends-bullet::before {
+  content: "";
+
+  position: absolute;
+  top: 50%;
+  right: 0;
+
+  width: 8px;
+  height: 8px;
+
+  background: linear-gradient(90deg, #eea526 0%, #ffc002 51.04%, #eea526 100%);
+
+  border-radius: 2px;
+
+  transform: translateY(-50%);
+}
+
+.inputs-section {
+  align-self: center;
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+}
+.inputs-section > div:first-child {
+  margin-left: 2vw;
+}
+
+.invite-friends-container > div:last-child {
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.invite-boxes {
+  display: flex;
+  justify-content: space-between;
+
+  width: 48%;
+  height: 31vh;
+
+  background: #fffbf5;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+
+  box-sizing: border-box;
+  padding: 2vh 2vh 2vh 2vh;
+  border-radius: 4px;
+}
+
+.invite-boxes > p:first-child {
+  opacity: 0.7;
+
+  font-size: 18px;
+}
+
+.invite-boxes > p:nth-child(2) {
+  align-self: center;
+
+  box-sizing: border-box;
+  border-bottom: 3px solid rgb(248, 193, 37);
+
+  font-size: 36px;
+}
+
+@media screen and (max-width: 920px) {
+  .invite-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .invite-section > div:first-child {
+    margin-bottom: 2vh;
+  }
+
+  .invite-boxes {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .inputs-section {
+    flex-direction: column;
+  }
+  .inputs-section > div:first-child {
+    margin-bottom: 2vh;
+
+    max-width: 310px;
+  }
+  .invite-boxes > p:first-child {
+    font-size: 14px;
+  }
+  .invite-boxes > p:nth-child(2) {
+    font-size: 20px;
+  }
+
+  .invite-boxes > img {
+    width: 100px;
+    height: 100px;
+
+    align-self: center;
+  }
+}

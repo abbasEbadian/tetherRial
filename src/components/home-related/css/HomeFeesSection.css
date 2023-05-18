@@ -1,0 +1,12 @@
+.home-fees-section-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 840px) {
+  .home-fees-section-container {
+    height: 100%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
